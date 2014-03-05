@@ -1,0 +1,13 @@
+multi_sync.after_initialize
+Starting synchronization...
+Synchronizing: '/Users/karlfreeman/Development/open-source/multi_sync/examples/rails-4-0/public/assets/'
+2 file(s) found from the source
+Fetching file(s) from the target...
+2 file(s) found from the target
+0 of the file(s) are missing
+0 of the file(s) are abandoned
+2 of the file(s) are outdated
+Scheduling job(s) in the future...
+Fetching job(s) from the future(s)...
+Upload LocalResource:'application-76724bf584cf1ce688b319d78a1d193f.js' to AwsTarget:'/multi_sync'
+Upload LocalResource:'application-f1a14051f17824976271b9c0460232f0.css' to AwsTarget:'/multi_sync'
