@@ -32,7 +32,9 @@ When `multi_sync` is included in your `Gemfile` an additional rake task `rake as
 
 ### AssetSync compatibility
 
-Many people use [AssetSync](https://github.com/rumblelabs/asset_sync) and for `MultiSync`'s first release, compatibility with it has been built in. When within a `Rails` environment `MultiSync` will check for `asset_sync.yml` and read in its settings. You should be able to simply [require `multi_sync`](https://github.com/karlfreeman/multi_sync-rails/blob/rails-4-asset_sync-compatibility/config/initializers/multi_sync.rb) and try things out.
+Many people use [AssetSync](https://github.com/rumblelabs/asset_sync) and for `MultiSync`'s first release, compatibility with it has been built in. When within a `Rails` environment `MultiSync` will check for `asset_sync.yml` and read in its settings.
+
+You should be able to simply [require `multi_sync`](https://github.com/karlfreeman/multi_sync-rails/blob/rails-4-asset_sync-compatibility/config/initializers/multi_sync.rb) and try things out.
 
 Please check out the [`rails-4-asset_sync-compatibility`](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4-asset_sync-compatibility) branch for an example (or the [`rails-3-asset_sync-compatibility`](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4-asset_sync-compatibility))
 
