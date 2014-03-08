@@ -26,14 +26,13 @@ end
 
 `MultiSync.prepare` simply bootstraps `MultiSync` for when it ran later on during `rake assets:precompile`. `MultiSync` can be turned off synchronising disabling `MultiSync.run_on_build`.By having `multi_sync` included in your `Gemfile`, the rake task `rake assets:sync` will be available which can then be ran manually or perhaps after a successful green build?
 
-#### AssetSync compatibility
+### AssetSync compatibility
 
 Many people use [AssetSync](https://github.com/rumblelabs/asset_sync) and for `MultiSync`'s first release compatibility with it has been built in. When within a `Rails` environment `MultiSync` will check for `asset_sync.yml` and read in its settings. You should be able to simply require `multi_sync` and try things out.
 
 Please check out the [`asset_sync-compatiabilty`](/tree/asset_sync-compatibility) branch for an example
 
-##### Unsupported AssetSync features
-
+#### Unsupported AssetSync features
 - [gzip_compression](https://github.com/rumblelabs/asset_sync#automatic-gzip-compression) hack. [related issue](https://github.com/karlfreeman/multi_sync/issues/1)
 - custom [asset_sync environment variables](https://github.com/rumblelabs/asset_sync#built-in-initializer-environment-variables). [related issue](https://github.com/karlfreeman/multi_sync/issues/2)
 
