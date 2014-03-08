@@ -1,6 +1,6 @@
-## Rails` examples for MultiSync
+## Rails` examples for multi_sync
 
-`MultiSync` supports both [Rails 4](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4) and [Rails 3](https://github.com/karlfreeman/multi_sync-rails/tree/rails-3). Please check out [the example branches](https://github.com/karlfreeman/multi_sync-rails/branches).
+[`multi_sync`](https://github.com/karlfreeman/multi_sync) supports both [Rails 4](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4) and [Rails 3](https://github.com/karlfreeman/multi_sync-rails/tree/rails-3). Please check out [the example branches](https://github.com/karlfreeman/multi_sync-rails/branches).
 
 `MultiSync` prefers ruby backed configuration instead of `YAML` so you'll need to create an initializer for `MultiSync` inside your `/config/initializers`.
 
