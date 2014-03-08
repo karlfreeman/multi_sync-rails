@@ -44,6 +44,5 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'unf'
-gem 'multi_sync', github: 'karlfreeman/multi_sync'
-gem 'celluloid', github: 'celluloid/celluloid'
+gem 'celluloid',  github: 'celluloid/celluloid'
+gem 'multi_sync',  github: 'karlfreeman/multi_sync'
