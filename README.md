@@ -39,6 +39,6 @@ You should be able to simply [require `multi_sync`](https://github.com/karlfreem
 Please check out the [`rails-4-asset_sync-compatibility`](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4-asset_sync-compatibility) or the [`rails-3-asset_sync-compatibility`](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4-asset_sync-compatibility) branches for examples.
 
 #### Unsupported AssetSync features
-- [gzip_compression](https://github.com/rumblelabs/asset_sync#automatic-gzip-compression) hack. [related issue](https://github.com/karlfreeman/multi_sync/issues/1)
-- custom [asset_sync environment variables](https://github.com/rumblelabs/asset_sync#built-in-initializer-environment-variables). [related issue](https://github.com/karlfreeman/multi_sync/issues/2)
+- [gzip_compression](https://github.com/rumblelabs/asset_sync#automatic-gzip-compression) hack. *[Related issue](https://github.com/karlfreeman/multi_sync/issues/1)*
+- custom [asset_sync environment variables](https://github.com/rumblelabs/asset_sync#built-in-initializer-environment-variables). *[Related issue](https://github.com/karlfreeman/multi_sync/issues/2)*
 
