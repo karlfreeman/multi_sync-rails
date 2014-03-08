@@ -15,7 +15,7 @@ MultiSync.prepare do
 
   target :rails, {
     type: :aws,
-    target_dir: 'multi-sync-rails-4',
+    target_dir: 'multi-sync-rails-3',
     destination_dir: MultiSync::Extensions::Rails.destination_dir,
     credentials: {
       region: 'us-east-1',
