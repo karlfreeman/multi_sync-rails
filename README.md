@@ -1,6 +1,6 @@
 ## Rails` examples for MultiSync
 
-`MultiSync` supports both [Rails 4](/tree/rails-4) and [Rails 3](/tree/rails-3). Please check out [the example branches](/branches)
+`MultiSync` supports both [Rails 4](/tree/rails-4) and [Rails 3](/tree/rails-3). Please check out [the example branches](/branches).
 
 `MultiSync` prefers ruby backed configuration instead of `YAML` so you'll need to create an initializer for `MultiSync` inside your `/config/initializers`.
 
