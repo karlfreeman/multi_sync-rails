@@ -36,7 +36,7 @@ Many people use [AssetSync](https://github.com/rumblelabs/asset_sync) and for `M
 
 You should be able to simply [require `multi_sync`](https://github.com/karlfreeman/multi_sync-rails/blob/rails-4-asset_sync-compatibility/config/initializers/multi_sync.rb) and try things out.
 
-Please check out the [`rails-4-asset_sync-compatibility`](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4-asset_sync-compatibility) branch for an example (or the [`rails-3-asset_sync-compatibility`](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4-asset_sync-compatibility))
+Please check out the [`rails-4-asset_sync-compatibility`](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4-asset_sync-compatibility) or the [`rails-3-asset_sync-compatibility`](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4-asset_sync-compatibility) branch for examples.
 
 #### Unsupported AssetSync features
 - [gzip_compression](https://github.com/rumblelabs/asset_sync#automatic-gzip-compression) hack. [related issue](https://github.com/karlfreeman/multi_sync/issues/1)
