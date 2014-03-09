@@ -7,21 +7,19 @@
 ```ruby
 MultiSync.prepare do
 
-  target :assets, {
-    type: :aws,
-    target_dir: 'your_aws_bucket',
+  manifest_source({
+    source_dir: MultiSync::Extensions::Rails.source_dir
+  })
+
+  aws_target({
+    target_dir: 'multi-sync-rails-4',
     destination_dir: MultiSync::Extensions::Rails.destination_dir,
     credentials: {
       region: 'us-east-1',
-      aws_access_key_id: 'super_secret',
-      aws_secret_access_key: 'super_secret'
+      aws_access_key_id: 'AKIAI6IOHCMYYPNEJ6VQ',
+      aws_secret_access_key: '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'
     }
-  }
-
-  source :rails, {
-    type: :manifest,
-    source_dir: MultiSync::Extensions::Rails.source_dir
-  }
+  })
 
 end
 ```
