@@ -13,8 +13,11 @@ end
 
 MultiSync.prepare do
 
-  target :rails, {
-    type: :aws,
+  manifest_source({
+    source_dir: MultiSync::Extensions::Rails.source_dir
+  })
+
+  aws_target({
     target_dir: 'multi-sync-rails-3',
     destination_dir: MultiSync::Extensions::Rails.destination_dir,
     credentials: {
@@ -22,11 +25,6 @@ MultiSync.prepare do
       aws_access_key_id: 'AKIAI6IOHCMYYPNEJ6VQ',
       aws_secret_access_key: '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'
     }
-  }
-
-  source :assets, {
-    type: :manifest,
-    source_dir: MultiSync::Extensions::Rails.source_dir
-  }
+  })
 
 end
