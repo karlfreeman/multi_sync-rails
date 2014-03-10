@@ -2,7 +2,7 @@
 
 [`multi_sync`](https://github.com/karlfreeman/multi_sync) supports both [Rails 4](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4) and [Rails 3](https://github.com/karlfreeman/multi_sync-rails/tree/rails-3). Please check out [the example branches](https://github.com/karlfreeman/multi_sync-rails/branches).
 
-To get started with `multi_sync` you'll need to create an initializer for `multi_sync` inside your `/config/initializers`.
+To get started with `multi_sync` and Rails you'll need to create an initializer for `multi_sync` inside your `/config/initializers`. Below is an example of synchronising your assets to an s3 bucket.
 
 ```ruby
 MultiSync.prepare do
