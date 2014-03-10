@@ -1,4 +1,6 @@
-## Rails 3, [asset_sync](https://github.com/rumblelabs/asset_sync) compatibility, [multi_sync](https://github.com/karlfreeman/multi_sync) example
+## Rails 3, [multi_sync](https://github.com/karlfreeman/multi_sync) example
+
+with [asset_sync](https://github.com/rumblelabs/asset_sync) compatibility
 
 ### Other branches
 - [`rails-4`](/tree/rails-4) example
