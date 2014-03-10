@@ -1,4 +1,4 @@
-## Rails 3 example for MultiSync
+## Rails 3, [multi_sync](https://github.com/karlfreeman/multi_sync) example
 
 ### Other branches
 - [`rails-4`](/tree/rails-4) example
