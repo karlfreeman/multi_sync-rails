@@ -1,4 +1,4 @@
-## Rails' examples for [`multi_sync`](https://github.com/karlfreeman/multi_sync)
+## Rails' examples for `multi_sync`
 
 [`multi_sync`](https://github.com/karlfreeman/multi_sync) supports both [Rails 4](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4) and [Rails 3](https://github.com/karlfreeman/multi_sync-rails/tree/rails-3). Please check out [the example branches](https://github.com/karlfreeman/multi_sync-rails/branches).
 
