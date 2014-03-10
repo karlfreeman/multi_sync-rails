@@ -2,7 +2,7 @@
 
 [`multi_sync`](https://github.com/karlfreeman/multi_sync) supports both [Rails 4](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4) and [Rails 3](https://github.com/karlfreeman/multi_sync-rails/tree/rails-3). Please check out [the example branches](https://github.com/karlfreeman/multi_sync-rails/branches).
 
-`multi_sync` prefers ruby backed configuration instead of `YAML` so you'll need to create an initializer for `multi_sync` inside your `/config/initializers`.
+To get started with `multi_sync` you'll need to create an initializer for `multi_sync` inside your `/config/initializers`.
 
 ```ruby
 MultiSync.prepare do
@@ -22,9 +22,9 @@ MultiSync.prepare do
 end
 ```
 
-`multi_sync.prepare` simply bootstraps `multi_sync` for when its ran later on (for example during `rake assets:precompile`). `multi_sync` can be disabled from being ran on build by turning `MultiSync.run_on_build` off (`false`).
+`multi_sync.prepare` simply bootstraps `multi_sync` for when its ran later on (eg during `rake assets:precompile`). `multi_sync` by default is ran after 'build' but this can be disabled by turning `MultiSync.run_on_build` off (eg `false`).
 
-When `multi_sync` is included in your `Gemfile` an additional rake task `rake assets:sync` will be available which can then be ran manually or perhaps after a successful green build?
+When `multi_sync` is included in your `Gemfile` an additional rake task `assets:sync` will be available which can then be ran manually or perhaps after a successful green build.
 
 ### `asset_sync` compatibility
 
@@ -32,7 +32,7 @@ Many people use [asset_sync](https://github.com/rumblelabs/asset_sync) and for `
 
 You should be able to simply [require `multi_sync`](https://github.com/karlfreeman/multi_sync-rails/blob/rails-4-asset_sync-compatibility/config/initializers/multi_sync.rb) and try things out.
 
-Please check out the [`rails-4-asset_sync-compatibility`](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4-asset_sync-compatibility) or the [`rails-3-asset_sync-compatibility`](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4-asset_sync-compatibility) branches for examples.
+Please check out the [`rails-4-asset_sync-compatibility`](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4-asset_sync-compatibility) or the [`rails-3-asset_sync-compatibility`](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4-asset_sync-compatibility) branches for examples of this.
 
 #### Unsupported `asset_sync` features
 - [gzip_compression](https://github.com/rumblelabs/asset_sync#automatic-gzip-compression) hack. *[Related issue](https://github.com/karlfreeman/multi_sync/issues/1)*
