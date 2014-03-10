@@ -1,4 +1,4 @@
-## Rails` examples for `multi_sync`
+## Rails' examples for [`multi_sync`](https://github.com/karlfreeman/multi_sync)
 
 [`multi_sync`](https://github.com/karlfreeman/multi_sync) supports both [Rails 4](https://github.com/karlfreeman/multi_sync-rails/tree/rails-4) and [Rails 3](https://github.com/karlfreeman/multi_sync-rails/tree/rails-3). Please check out [the example branches](https://github.com/karlfreeman/multi_sync-rails/branches).
 
@@ -6,23 +6,19 @@
 
 ```ruby
 MultiSync.prepare do
+  manifest_source({
+    source_dir: MultiSync::Extensions::Rails.source_dir
+  })
 
-  target :assets, {
-    type: :aws,
+  aws_target({
     target_dir: 'your_aws_bucket',
-    destination_dir: multi_sync::Extensions::Rails.destination_dir,
+    destination_dir: MultiSync::Extensions::Rails.destination_dir,
     credentials: {
       region: 'us-east-1',
-      aws_access_key_id: 'super_secret',
-      aws_secret_access_key: 'super_secret'
+      aws_access_key_id: 'xxx',
+      aws_secret_access_key: 'xxx'
     }
-  }
-
-  source :rails, {
-    type: :manifest,
-    source_dir: multi_sync::Extensions::Rails.source_dir
-  }
-
+  })
 end
 ```
 
